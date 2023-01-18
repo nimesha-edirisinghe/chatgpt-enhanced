@@ -3,10 +3,10 @@ const bodyParser = require("body-parser");
 const cors = require("cors");
 
 const { Configuration, OpenAIApi } = require("openai");
-const configuration = new Configuration({
-    organization: "org-kr1Sa9uS0KJVkipH2xETLBh8",
-    apiKey: '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',
-});
+      const configuration = new Configuration({
+           organization: "org-kr1Sa9uS0KJVkipH2xETLBh8",
+          apiKey: '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',
+      });
 const openai = new OpenAIApi(configuration);
 const app = express();
 app.use(bodyParser.json());
