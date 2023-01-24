@@ -11,7 +11,7 @@ function App() {
     },
     {
       user: "me",
-      message: "I want to use ChatGPT today",
+      message: "What's your name?",
     },
   ]);
 
